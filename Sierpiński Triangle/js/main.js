@@ -21,4 +21,4 @@ function drawSierpinskiTriangle(ctx, points, depth) {
     return [(point1[0] + point2[0]) / 2, (point1[1] + point2[1]) / 2];
   }
   
-  drawSierpinskiTriangle(ctx, [[0, 0], [cnv.width, 0], [cnv.width/2, cnv.height]], 10);
+  drawSierpinskiTriangle(ctx, [[100, 100], [300, 100], [200, 300]], 5);
